@@ -47,15 +47,6 @@ h1, p{
     color: #FFF;
 }
 p{
-    top: 40%;
-    right: 26%;
-}
-
-@media (max-width:840px) {
-background-size: 100%;
- 
- 
-}
-.pizzaCard , h1 ,p @media (max-width:840px){
-padding: 5px 10px ;
+    top: 50%;
+    right: 20%;
 }
