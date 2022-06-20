@@ -20,8 +20,8 @@ font-family:'Lato',Helvetica,Arial;
     margin-top:30px;
     border: 1px solid #960801;
     text-shadow: 1px 1px 1px #0000009f;
-    padding:10px 50px;
-    border-radius:10px;
+    padding:5px 30px;
+    border-radius:5px;
     background-color:#f3b509;
     color:#FFF;
     display:inline-block;
@@ -37,12 +37,12 @@ h1, p{
     text-shadow: 1px 1px 2px #0000009f;
     display: block;
     background-color: #E30F02;
-    border-radius: 10px;
-    padding: 20px 40px;
+    border-radius: 5px;
+    padding: 10px 20px;
     font-family: 'Kdam Thmor Pro', sans-serif;
     text-align: center;
     position: fixed;
-    right: 13%;
+    right: 10%;
     top: 25%;
     color: #FFF;
 }
