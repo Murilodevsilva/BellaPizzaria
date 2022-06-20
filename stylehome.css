@@ -2,7 +2,8 @@
 body {
 background-image: url(https://cdn.pixabay.com/photo/2020/05/12/16/21/pizza-5163800_960_720.jpg);
 background-repeat: no-repeat;
-background-size: 100vw 100vh;
+background-size: 100vw;
+ background-size: 100vh;
 font-family:'Lato',Helvetica,Arial;
  font-size:15px;
  display:flex;
