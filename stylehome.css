@@ -1,6 +1,6 @@
 
 body {
-background-image: url(https://cdn.pixabay.com/photo/2020/05/12/16/21/pizza-5163800_960_720.jpg);
+background-image:linear-gradient(#070707,#292929,#080808);
 background-repeat: no-repeat;
 background-size: 100vw;
 font-family:'Lato',Helvetica,Arial;
@@ -53,4 +53,9 @@ p{
 
 @media (max-width:840px) {
 background-size: 100%;
+ 
+ 
+}
+.pizzaCard , h1 ,p @media (max-width:840px){
+padding: 5px 10px ;
 }
