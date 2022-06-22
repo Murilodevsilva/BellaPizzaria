@@ -98,14 +98,14 @@ h1 {
     margin: 0%;
     width:200px;
     height:200px;
-    background-color:#EEE;
+    background-color:#c9211b;
     border-radius:100px;
     box-shadow:0px 10px 50px rgba(0, 0, 0, 0.2);
 }
 .pizza-item--img img {
     width:100%;
     margin: 0%;
-    height:auto;
+    height:100%;
 }
 .pizza-item--add {
     width: 30px;
