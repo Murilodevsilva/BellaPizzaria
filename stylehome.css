@@ -50,3 +50,11 @@ p{
     top: 50%;
     right: 20%;
 }
+@media (max-width:840px){
+ .pizza-card {
+  left:50%;
+  right:50%
+ }
+ h1, p{
+  font-size:10px;
+ }}
