@@ -5,7 +5,7 @@
 }
 body {
     text-shadow: 1px 1px 2px #0000009f;
-    background-image: linear-gradient(#d62721,#960801);
+   background-image: linear-gradient(#32404D,#1C2B32,#131716);
     font-family:'Lato',Helvetica,Arial;
     font-size:15px;
     display:flex;
@@ -23,7 +23,7 @@ header {
     top:0;
     right:0;
     height:60px;
-    background-color:#960801;
+    background-image: linear-gradient(#32404D,#1C2B32,#131716);
     display:none;
     justify-content: flex-end;
     align-items: center;
@@ -98,7 +98,7 @@ h1 {
     margin: 0%;
     width:200px;
     height:200px;
-    background-color:#c9211b;
+    background-image: linear-gradient(#32404D,#1C2B32,#131716);
     border-radius:100px;
     box-shadow:0px 10px 50px rgba(0, 0, 0, 0.2);
 }
@@ -157,7 +157,7 @@ h1 {
 .pizzaWindowBody {
     font-family: Arial, Helvetica, sans-serif;
     width:900px;
-    background-color: #960801;
+    background-color: #32404D;
     background-repeat: no-repeat;
     border-radius:10px;
     box-shadow:0px 0px 30px black;
