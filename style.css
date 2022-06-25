@@ -460,10 +460,21 @@ h1{
 }
 
 @media (max-width:840px) {
-    .style-container{
-        left: 31%;
-    }
+.ponto-h{
+    font-size: 30px;
+    left: 25%;
+}
+.ponto-p{
+    font-size: 15px;
+    left: 25%;
+    top: 50%;
+}
+.style-container, .menuzin{
+   left:4%;
+   background-size: cover;
+}
     .top-h1{
+        font-size: 20px;
    background-color: none;
     }
     body {
@@ -550,3 +561,4 @@ h1{
         display:block;
     }
 }
+
