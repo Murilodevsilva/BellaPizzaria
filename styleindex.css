@@ -57,26 +57,35 @@ h1,p, .enfase {
         font-size:25px;
     }
     p {
-        right: 10%;
+        font-size: 70%;
+        right: 6%;
+        top: 62%;
     }
     .enfase {
+        font-size: 70%;
         right: 33%;
+        top: 73%;
     }
     body {
         background-size: 100%;
     }
     h1 {
-        right: 30%;
-        top: 8%;
+        font-size: 80%;
+        right: 38%;
+        top: 59%;
     }
     .button{
-        bottom: 40%;
+        text-align: center;
+        left: 25%;
+        right: 25%;
+        bottom: 10%;
     }
     h1 , p , .enfase {
         color:#1C2B32;
-        text-shadow: 1px 1xp 20px black;
+        text-shadow: 1px 1xp 20px white;
     }
     img {
+        right: 0%;
         width: 100%;
         top: 5%;
     }
