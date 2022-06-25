@@ -1,0 +1,83 @@
+body{
+    width: 40%;
+
+    margin-top: 10px;
+    background-image: linear-gradient(#5E8C5D,#52734D);
+}
+h1{
+    display: block;
+    position: fixed;
+    right: 18%;
+    font-size: 50px;
+}
+img{
+    top: 10%;
+    position: absolute;
+}
+p{
+    display: block;
+    position: fixed;
+    right: 8%;
+    top: 20%;
+    text-align: center;
+}
+.button{
+    color: #260705;
+    display:inline-flex;
+    padding: 15px 30px;
+    background-color: #F2CA7E;
+    border-radius: 20px;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    position: fixed;
+    right: 15%;
+    bottom: 12%;
+}
+.button a {
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #260705;
+    color:#F2CA7E;
+}
+.enfase{
+    position: fixed;
+    top: 40%;
+    right: 21%;
+}
+p , .enfase {
+    font-size: 20px;
+}
+h1,p, .enfase {
+    color: #F2CA7E;
+    text-shadow: 1px 1px 5px #260705;
+     font-family: 'Kdam Thmor Pro', sans-serif;;
+}
+@media (max-width:950px){
+    p, .enfase {
+        font-size:25px;
+    }
+    p {
+        right: 10%;
+    }
+    .enfase {
+        right: 33%;
+    }
+    body {
+        background-size: 100%;
+    }
+    h1 {
+        right: 30%;
+        top: 8%;
+    }
+    .button{
+        bottom: 40%;
+    }
+    h1 , p , .enfase {
+        color:#1C2B32;
+        text-shadow: 1px 1xp 20px black;
+    }
+    img {
+        width: 100%;
+        top: 5%;
+    }
+}
