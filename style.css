@@ -287,20 +287,20 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     padding:10px 15px;
     color:#000;
-    background-color:#EEE;
+    background-color:#0000;
     font-size:13px;
     font-weight: bold;
     cursor:pointer;
 }
 .pizzaInfo--size:hover {
-    background-color:#8F1800;
+    background-color:#ce4826;
 }
 .pizzaInfo--size.selected{
-    background-color:#8F1800;
+    background-color:#000;
     color:#FFF;
 }
 .pizzaInfo--size.selected span{
-    color:#D6D6D6;
+    color:#fff;
 }
 .pizzaInfo--size span {
     font-size:12px;
@@ -361,7 +361,7 @@ h1{
 }
 .pizzaInfo--cancelButton:hover{
     text-shadow: none;
-    background-color: #D6D6D6;
+    background-color: #0000;
     color: #C52128;
 }
 .pizzaInfo--cancelButton {
@@ -472,12 +472,23 @@ h1{
     top: 50%;
 }
 .style-container, .menuzin{
-   left:4%;
-   background-size: cover;
+   display: flex;
+   margin: 0;
+   width: 100%;
+   height: 70px;
+   border: 0;
+   border-radius: 0;
+}
+.style-container {
+    position: absolute;
+    left: 0;
+    margin-top: 57%;
+    z-index: 0;
 }
     .top-h1{
         font-size: 20px;
    background-color: none;
+   padding-top: 220px;
     }
     body {
         flex-direction: column;
